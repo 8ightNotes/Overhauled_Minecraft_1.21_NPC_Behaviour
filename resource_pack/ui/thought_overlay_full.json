@@ -1,0 +1,23 @@
+{
+  "overlay": {
+    "name": "thought_overlay_full",
+    "elements": [
+      {
+        "id": "thought_icon",
+        "type": "image",
+        "position": { "x": 0.5, "y": 0.15 },
+        "size": { "w": 32, "h": 32 },
+        "source": "textures/ui/thoughts/default.png"
+      },
+      {
+        "id": "thought_text",
+        "type": "text",
+        "position": { "x": 0.5, "y": 0.22 },
+        "max_width": 220,
+        "font_size": 14,
+        "color": "#FFFFFF"
+      }
+    ],
+    "visibility": { "range": 64, "occlusion_aware": true }
+  }
+}

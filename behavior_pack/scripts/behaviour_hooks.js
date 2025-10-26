@@ -6,6 +6,13 @@ const Pools = (typeof require !== 'undefined') ? require('./faceTie_core') : (th
 const Animator = (typeof require !== 'undefined') ? require('./animator') : (this.Animator || {});
 const SoundMap = (typeof require !== 'undefined') ? require('./sound_map.json') : (this.SoundMap || {});
 const Sequences = (typeof require !== 'undefined') ? require('./behavior_sequences') : (this.Sequences || {});
+// Merge AAA generated sequences if available
+try {
+    if (typeof require !== 'undefined') {
+        const AAA = require('./aaa_sequences_generated');
+        Object.assign(Sequences, AAA);
+    }
+} catch (e) { /* ignore if not present in the runtime */ }
 
 // Generic handler used by auto-generated per-mob functions
 function faceTie_generic_tick(entityId, mobType) {

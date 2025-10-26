@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "walk": "anim.walk",
+    "swim": "anim.swim",
+    "eat": "anim.eat",
+    "throw": "anim.throw",
+    "attack": "anim.attack",
+    "idle": "anim.idle"
+  },
+  "notes": "Map procedural descriptors to your entity animation controller state names. Replace keys with your model's controller/motion names."
+}
