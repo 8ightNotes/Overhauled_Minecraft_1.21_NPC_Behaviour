@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "overlay": {
+    "name": "thought_overlay",
+    "description": "Placeholder Thought UI overlay mapping for FaceTie",
+    "elements": [
+      {
+        "id": "thought_text",
+        "type": "text",
+        "position": {"x": 0.5, "y": 0.2},
+        "max_width": 200,
+        "font_size": 14
+      }
+    ],
+    "visibility": {
+      "range": 64,
+      "occlusion_aware": true
+    }
+  }
+}

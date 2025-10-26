@@ -1,0 +1,9 @@
+{
+  "icons": {
+    "fear": "textures/ui/thoughts/fear.png",
+    "curiosity": "textures/ui/thoughts/curious.png",
+    "joy": "textures/ui/thoughts/joy.png",
+    "anger": "textures/ui/thoughts/anger.png",
+    "default": "textures/ui/thoughts/default.png"
+  }
+}

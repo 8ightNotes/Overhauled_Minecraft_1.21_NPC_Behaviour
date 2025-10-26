@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Overhauled NPC Behaviour - Behavior Pack",
+    "description": "FaceTie AI core and behavior definitions (scaffold).",
+    "uuid": "0d3f7a10-1d7b-4a2b-9c3b-111111111111",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "1a2b3c4d-5e6f-7a8b-9c0d-222222222222",
+      "version": [1, 0, 0]
+    }
+  ]
+}

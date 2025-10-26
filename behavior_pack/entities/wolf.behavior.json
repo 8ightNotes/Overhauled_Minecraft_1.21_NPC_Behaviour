@@ -1,0 +1,15 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:entity": {
+    "description": { "identifier": "overhauled:wolf", "is_spawnable": true },
+    "components": {
+      "minecraft:health": { "value": 16 },
+      "minecraft:behavior.random_stroll": { "priority": 1 }
+    },
+    "events": {
+      "faceTie:on_tick": {
+        "run_command": { "command": "javascript:faceTie_wolf_tick {entity_id}" }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "overhauled-npc-behaviour-scripts",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Script host for FaceTie AI core - placeholder implementation.",
+  "scripts": {}
+}

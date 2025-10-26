@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "components": [
+    {
+      "name": "overhauled:faceTie_state",
+      "description": "Stores FaceTie AI state for an entity (example template).",
+      "properties": {
+        "id": "string",
+        "short_term": "json",
+        "long_term": "json",
+        "emotions": "json",
+        "social_links": "json"
+      }
+    }
+  ]
+}

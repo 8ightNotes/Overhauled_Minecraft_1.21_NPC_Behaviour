@@ -1,0 +1,12 @@
+{
+  "thought_ui": {
+    "range": 64,
+    "occlusion_aware": true,
+    "default_pool": [
+      "...",
+      "?",
+      "!"
+    ],
+    "boss_exceptions": ["ender_dragon","wither"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "overhauled:villager",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:health": { "value": 20 },
+      "minecraft:behavior.random_stroll": { "priority": 1 },
+      "minecraft:behavior.look_at_player": { "priority": 2, "probability": 0.6, "look_distance": 6 }
+    },
+    "events": {
+      "faceTie:on_tick": {
+        "run_command": {
+          "command": "javascript:faceTie_villager_tick {entity_id}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "emotion_sounds": {
+    "fear": "mob.generic.fear",
+    "curiosity": "mob.generic.curious",
+    "anger": "mob.generic.anger",
+    "sadness": "mob.generic.sad",
+    "joy": "mob.generic.joy",
+    "trust": "mob.generic.trust",
+    "surprise": "mob.generic.surprise"
+  },
+  "action_sounds": {
+    "run": "mob.generic.run",
+    "jump": "mob.generic.jump",
+    "eat": "mob.generic.eat",
+    "attack": "mob.generic.attack",
+    "flee": "mob.generic.flee"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "overhauled:strider",
+      "is_spawnable": true
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 10
+      }
+    },
+    "events": {
+      "faceTie:on_tick": {
+        "run_command": {
+          "command": "javascript:faceTie_strider_tick {entity_id}"
+        }
+      }
+    }
+  }
+}
